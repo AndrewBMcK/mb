@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}About{% endblock title %}
+
+{% block content %}
+<h1>About Me</h1>
+
+<div class="img-container">
+    <img src="{% static 'img/profile_image.jpg' %}" style="width: 25%" alt="Profile Image">
+</div>
+
+
+<P>Hello! This is my About Me page. My name is Andrew and I'm a student at SDGKU working to become a Full Stack Web Developer.
+    I'm a Marine Corps veteran, avid Arsenal fan and I'm passionate about Esports and video games. 
+</P>
+{% endblock content %}
